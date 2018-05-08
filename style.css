@@ -85,11 +85,11 @@ th{
 }
 
 90% {
-  transform: translateX(-150px) rotate(-1080000000deg);
+  transform: translateX(0px) rotate(-1080000000deg);
 }
 
 100% {
-  transform: translateX(-150px) rotate(-30deg);
+  transform: translateX(0px) rotate(-30deg);
 }
 
 }
@@ -107,11 +107,11 @@ th{
   }
 
   90% {
-    transform: translateX(-150px) rotate(-1080000000deg);
+    transform: translateX(0px) rotate(-1080000000deg);
   }
 
   100% {
-    transform: translateX(-150px) rotate(-30deg);
+    transform: translateX(0px) rotate(-30deg);
 }
 }
 @keyframes Logo-bas-de-page {
@@ -128,11 +128,11 @@ th{
   }
 
   90% {
-    transform: translateX(-150px) rotate(-1080000000deg);
+    transform: translateX(0px) rotate(-1080000000deg);
   }
 
   100% {
-    transform: translateX(-150px) rotate(-30deg);
+    transform: translateX(0px) rotate(-30deg);
   }
 
   }
