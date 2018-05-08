@@ -18,6 +18,17 @@ body{
   background-image: linear-gradient(red,orange,yellow,green,#00E6DC,#000080,#ce28d8);
   background-attachment:fixed;
 }
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th{
+  border: 2px solid pink;
+}
+th{
+  font-weight: 450;
+  font-weight: bold;
+}
 .main{
 }
 .main-header{
@@ -162,4 +173,5 @@ body{
 }
 100% {
   transform: translateX(0px);
+}
 }
