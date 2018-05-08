@@ -15,7 +15,7 @@ list-style: none;
 text-decoration: none;
 }
 body{
-  background-image: linear-gradient(white,yellow,red,green);
+  background-image: linear-gradient(red,orange,yellow,green,#00E6DC,#000080,#ce28d8);
   background-attachment:fixed;
 }
 .main{
@@ -65,36 +65,101 @@ body{
   transform: translateX(0px);
 }
 
-80% {
+40% {
   transform: translateX(150px) rotate(360deg);
 }
 
-100% {
+50% {
   transform: translateX(150px) rotate(30deg);
 }
+
+90% {
+  transform: translateX(-150px) rotate(-1080000000deg);
+}
+
+100% {
+  transform: translateX(-150px) rotate(-30deg);
+}
+
 }
 @-moz-keyframes Logo-bas-de-page {
-0% {
-  transform: translateX(0px);
-}
+  0% {
+    transform: translateX(0px);
+  }
 
-80% {
-  transform: translateX(150px) rotate(360deg);
-}
+  40% {
+    transform: translateX(150px) rotate(360deg);
+  }
 
-100% {
-  transform: translateX(150px) rotate(30deg);
+  50% {
+    transform: translateX(150px) rotate(30deg);
+  }
+
+  90% {
+    transform: translateX(-150px) rotate(-1080000000deg);
+  }
+
+  100% {
+    transform: translateX(-150px) rotate(-30deg);
 }
 }
 @keyframes Logo-bas-de-page {
+  0% {
+    transform: translateX(0px);
+  }
+
+  40% {
+    transform: translateX(150px) rotate(360deg);
+  }
+
+  50% {
+    transform: translateX(150px) rotate(30deg);
+  }
+
+  90% {
+    transform: translateX(-150px) rotate(-1080000000deg);
+  }
+
+  100% {
+    transform: translateX(-150px) rotate(-30deg);
+  }
+
+  }
+.Logo-haut-de-page{
+    position: relative;
+    -webkit-animation: Logo-haut-de-page 10s infinite;
+    -moz-animation: Logo-haut-de-page 10s infinite;
+    animation: Logo-haut-de-page 10s infinite;
+}
+@-webkit-keyframes Logo-haut-de-page {
 0% {
   transform: translateX(0px);
 }
-
-80% {
-  transform: translateX(150px) rotate(1080000000deg);
+50% {
+  transform: translateX(150px);
 }
-
 100% {
-  transform: translateX(150px) rotate(30deg);
+  transform: translateX(0px);
+}
+}
+@-moz-keyframes Logo-haut-de-page {
+0% {
+  transform: translateX(0px);
+}
+50% {
+  transform: translateX(150px);
+}
+100% {
+  transform: translateX(0px);
+}
+}
+@keyframes Logo-haut-de-page {
+0% {
+  transform: translateX(0px);
+}
+50% {
+  transform: translateX(150px);
+}
+100% {
+  transform: translateX(0px);
 }
