@@ -29,6 +29,10 @@ th{
   font-weight: 450;
   font-weight: bold;
 }
+h2{
+  background-image: radial-gradient(white,black);
+  color:pink;
+}
 .main{
 }
 .main-header{
