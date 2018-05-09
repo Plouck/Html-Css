@@ -15,7 +15,7 @@ list-style: none;
 text-decoration: none;
 }
 body{
-  background-image: linear-gradient(red,orange,yellow,green,#00E6DC,#000080,#ce28d8);
+  background-image: linear-gradient(red,orange,yellow,green,#00E6DC,#000080,#ce28d8,white,white,white,white,white,white,white,white,black,white,white,white,white,white,white,red,orange,yellow,green,#00E6DC,#000080,#ce28d8);
   background-attachment:fixed;
 }
 table{
@@ -30,7 +30,7 @@ th{
   font-weight: bold;
 }
 h2{
-  background-image: radial-gradient(white,black);
+  background-image: radial-gradient(white,pink,black,yellow);
   color:pink;
 }
 .main{
